@@ -711,6 +711,7 @@ border-bottom: 3px solid var(--main-color);
     font-size: 16px;
 }
 
+/* Laptop view (1285px and below) */
 @media(max-width:1285px){
     #menu-icon {
         display: block;
@@ -802,6 +803,126 @@ border-bottom: 3px solid var(--main-color);
     }
     
 }
+
+/* Tablet View (1024px and below) */
+@media (max-width: 1024px) {
+    .header {
+        padding: 2rem 10%;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
+    .home-img img {
+        width: 50vw;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 5rem;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+    }
+
+    .container1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Technical-bars .bar {
+        width: 100%;
+    }
+}
+
+/* Mobile View (768px and below) */
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .navbar {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+    }
+
+    .about-content h2 {
+        font-size: 4rem;
+    }
+
+    .about-img img {
+        width: 70vw;
+    }
+
+    .projects-box {
+        grid-template-columns: 1fr;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact form {
+        flex-direction: column;
+    }
+
+    .footer ul {
+        font-size: 1.6rem;
+    }
+
+    .footer ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
 
 
 
